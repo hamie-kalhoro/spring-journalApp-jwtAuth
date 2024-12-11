@@ -7,6 +7,8 @@ import net.oceandepth.journalApp.repository.JournalEntryRepository;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
@@ -25,6 +27,7 @@ public class JournalEntryService {
         this.userService = userService;
     }
 
+    @Transactional
     public void saveEntry(JournalEntry journalEntry, String userName) {
         try {
             User user = userService.findByUserName(userName);
@@ -33,7 +36,7 @@ public class JournalEntryService {
             user.getJournalEntries().add(saved);
             userService.saveEntry(user);
         } catch (Exception e) {
-            out.println(e);
+            log.error(e.getMessage());
             throw new RuntimeException("An error occurred while saving the entry", e);
         }
     }
