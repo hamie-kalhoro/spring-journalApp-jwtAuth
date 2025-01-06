@@ -7,11 +7,11 @@ spring:
     name: Journal App
   data:
     redis:
-      uri: redis://default:kalhoro@redis-16315.c264.ap-south-1-1.ec2.redns.redis-cloud.com:16315
+      uri: ${Redis_URI}
     mongodb:
       database: journaldb
       auto-index-creation: true
-      uri: mongodb+srv://hamid:kalhoro@cluster0.ev6lc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      uri: ${Mongo_URI}
   #      authentication-database: admin
   #      authentication-mechanism: SCRAM-SHA-256
   main:
@@ -20,8 +20,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: hamidkalhoro.in@gmail.com
-    password: vurn obwt ncdi pipe
+    username: ${G_Username}
+    password: ${G_Password}
     properties:
       mail:
         smtp:
@@ -37,7 +37,7 @@ spring:
 
 weather:
   api:
-    key: 6d16fd7350892af4daf0104c2138c7f8
+    key: ${Weather_Key}
 
 server:
   port: 8080
