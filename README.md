@@ -1,12 +1,12 @@
-**🗂️ Spring Journal App + JWT Auth**
+<pre>**🗂️ Spring Journal App + JWT Auth**</pre>
 <br>
-  <pre>Spring Journal App is a minimalistic and secure journal management backend built using Spring Boot.
+  Spring Journal App is a minimalistic and secure journal management backend built using Spring Boot.
   It features JWT-based stateless authentication and Spring Security for role-based authorization.
-  Ideal for building secure RESTful services and learning clean architecture with Spring.</pre>
+  Ideal for building secure RESTful services and learning clean architecture with Spring.
 
 ---
 
-**🚀 Features**
+<pre>**🚀 Features**</pre>
 <br>
   🔐 JWT Auth — Secbrure login & role-based access with Spring Security
   
@@ -18,7 +18,7 @@
 
 ---
 
-**🏗️ Tech Stack**
+<pre>**🏗️ Tech Stack**</pre>
 <br>
   ☕ Spring Boot 3
   
@@ -32,7 +32,7 @@
 
 ---
 
-**🔐 Auth Flow**
+<pre>**🔐 Auth Flow**</pre>
 <br>
   👤 User logs in with credentials
   
@@ -44,7 +44,7 @@
 
 ---
 
-**🧭 API Overview**
+<pre>**🧭 API Overview**</pre>
 <br>
   Method	Endpoint	Description
   POST	/auth/login	🔐 Login + Get JWT
@@ -56,7 +56,7 @@
 
 ---
 
-**🛠️ Getting Started**
+<pre>**🛠️ Getting Started**</pre>
 <br>
   ✅ Clone + Build
   bash
@@ -70,7 +70,7 @@
 
 ---
 
-**🐳 Run with Docker**
+<pre>**🐳 Run with Docker**</pre>
 <br>
   bash
   Copy
@@ -80,7 +80,7 @@
 
 ---
 
-**📁 Structure Highlights**
+<pre>**📁 Structure Highlights**</pre>
 <br>
   AuthController, JwtService → 🔐 Handles authentication and token issuance
   
@@ -92,7 +92,7 @@
 
 ---
 
-**📜 License**
+<pre>**📜 License**</pre>
 <br>
   MIT License — free to use and contribute 🤝
   PRs and forks are always welcome!
