@@ -1,4 +1,4 @@
-#🗂️ Spring Journal App + JWT Auth
+<pre>**🗂️ Spring Journal App + JWT Auth**</pre>
 <br>
   Spring Journal App is a minimalistic and secure journal management backend built using Spring Boot.
   It features JWT-based stateless authentication and Spring Security for role-based authorization.
