@@ -1,12 +1,12 @@
-**🗂️ Spring Journal App + JWT Auth**
+**🗂️ Spring Journal App + JWT Auth**<br>
 Spring Journal App is a minimalistic and secure journal management backend built using Spring Boot.
 It features JWT-based stateless authentication and Spring Security for role-based authorization.
 Ideal for building secure RESTful services and learning clean architecture with Spring.
 
 ---
 
-**🚀 Features**
-🔐 JWT Auth — Secure login & role-based access with Spring Security
+**🚀 Features**<br>
+🔐 JWT Auth — Secbrure login & role-based access with Spring Security
 
 📓 Journal CRUD — Create, view, edit & delete your journal entries
 
@@ -16,7 +16,7 @@ Ideal for building secure RESTful services and learning clean architecture with 
 
 ---
 
-**🏗️ Tech Stack**
+**🏗️ Tech Stack**<br>
 ☕ Spring Boot 3
 
 🔒 Spring Security + JWT
@@ -29,7 +29,7 @@ Ideal for building secure RESTful services and learning clean architecture with 
 
 ---
 
-**🔐 Auth Flow**
+**🔐 Auth Flow**<br>
 👤 User logs in with credentials
 
 🪙 JWT token is returned
@@ -40,7 +40,7 @@ Ideal for building secure RESTful services and learning clean architecture with 
 
 ---
 
-**🧭 API Overview**
+**🧭 API Overview**<br>
 Method	Endpoint	Description
 POST	/auth/login	🔐 Login + Get JWT
 POST	/auth/register	🧾 Register User
@@ -51,7 +51,7 @@ DELETE	/api/journals/{id}	❌ Delete journal entry
 
 ---
 
-**🛠️ Getting Started**
+**🛠️ Getting Started**<br>
 ✅ Clone + Build
 bash
 Copy
@@ -64,7 +64,7 @@ mvn spring-boot:run
 
 ---
 
-**🐳 Run with Docker**
+**🐳 Run with Docker**<br>
 bash
 Copy
 Edit
@@ -73,7 +73,7 @@ docker run -p 8080:8080 spring-journal-app
 
 ---
 
-**📁 Structure Highlights**
+**📁 Structure Highlights**<br>
 AuthController, JwtService → 🔐 Handles authentication and token issuance
 
 JournalController, JournalService → 📓 Business logic for journals
@@ -84,6 +84,6 @@ JWTFilter, TokenUtil → 🪙 Handles token validation and parsing
 
 ---
 
-**📜 License**
+**📜 License**<br>
 MIT License — free to use and contribute 🤝
 PRs and forks are always welcome!
