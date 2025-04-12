@@ -24,7 +24,7 @@
   
   🔒 Spring Security + JWT
   
-  🛢️ H2 / PostgreSQL (flexible setup)
+  🛢️ MongoDB Atlas
   
   🧪 JUnit & Mockito (testing support)
   
